@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import { Button, Container, Form, Row, Col, Modal } from "react-bootstrap"
-import Datepicker from "react-datepicker"
 
 const FormPersonalData = () => {
     const date = new Date();

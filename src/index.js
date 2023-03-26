@@ -3,9 +3,10 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'react-datepicker/dist/react-datepicker.css'
-import App from './App';
-import FormPersonalData from './components/FormPersonalData';
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Widget from './components/Widget';
+import FormPersonalData from './components/FormPersonalData';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
